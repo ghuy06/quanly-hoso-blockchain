@@ -1,0 +1,41 @@
+# Bí mật - TUYỆT ĐỐI không đẩy
+.env
+.env.*
+*.seed-passwords
+.seed-passwords
+.demo-accounts
+*.key
+*.pem
+secrets/
+
+# Khóa và danh tính Fabric / ChainLaunch
+crypto-config/
+organizations/
+msp/
+*/keystore/
+chainlaunch-data/
+
+# Phụ thuộc và build
+node_modules/
+dist/
+build/
+.vite/
+
+# Tệp người dùng tải lên và dữ liệu chạy
+uploads/
+*.log
+*.sqlite
+pg_data/
+
+# Lặt vặt
+.DS_Store
+
+# ChainLaunch - CHỨA KHÓA FABRIC, KHÔNG ĐẨY
+chainlaunch-20260811T082528Z-1-001/
+chainlaunch-20260811T082528Z-1-001.zip
+
+# Các gói nén trung gian - không đẩy
+*.zip
+
+# Script seed có thể chứa mật khẩu demo - kiểm tra trước
+seed-demo.js
